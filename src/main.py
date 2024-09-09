@@ -162,6 +162,7 @@ async def shutdown_event():
 
 
 if __name__ == "__main__":
+    
     server.run(
         "main:app",
         host="0.0.0.0",
